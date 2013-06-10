@@ -1,0 +1,11 @@
+maxDocAgeInMinutes=44640
+docTempDir=/tmp/mapfishapp
+language=fr
+
+#you can provide multiple entries
+credentials=\
+<entry key="localhost">\
+    <bean class="org.apache.commons.httpclient.UsernamePasswordCredentials">\
+        <constructor-arg index="0" value="extractorapp_privileged_admin:gerlsSnFd6SmM" />\
+    </bean>\
+</entry>

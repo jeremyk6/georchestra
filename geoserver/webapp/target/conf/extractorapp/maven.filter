@@ -1,0 +1,30 @@
+maxCoverageExtractionSize=99999999
+maxExtractions=5
+remoteReproject=true
+useCommandLineGDAL=false
+extractionFolderPrefix=extraction-
+
+host=localhost
+
+# The base url of the extractorapp as accessible from outside the intranet
+servletUrl=http://localhost/extractorapp
+
+# Hostname of the geoserver that is secured for geOrchestra.
+secureHost=localhost
+
+# Email properties
+smtpHost=localhost
+smtpPort=25
+replyTo=psc@georchestra.org
+from=psc@georchestra.org
+
+privileged_admin_name=extractorapp_privileged_admin
+privileged_admin_pass=gerlsSnFd6SmM
+
+dlformjdbcurl=jdbc:postgresql://localhost:5432/downloadform?user=www-data&amp;password=www-data
+dlformactivated=true
+
+emailfactory=org.georchestra.extractorapp.ws.EmailFactoryDefault
+emailsubject=Your extraction request on localhost
+
+language=fr
