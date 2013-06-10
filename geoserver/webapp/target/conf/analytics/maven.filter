@@ -1,2 +1,0 @@
-dlJdbcUrlOGC=jdbc:postgresql://localhost:5432/ogcstatistics?user=www-data&password=www-data
-dlJdbcUrlDLForm=jdbc:postgresql://localhost:5432/downloadform?user=www-data&password=www-data

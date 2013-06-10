@@ -1,4 +1,0 @@
-host=localhost
-port=8080
-ldapUrl=ldap://localhost:389
-userFilter=uid=%u,ou=users,dc=georchestra,dc=org
